@@ -1,0 +1,107 @@
+@media (min-width: 800px) and (max-width: 1024px) {
+
+	.contenedorNivel
+	{
+		width: 20%;
+		background-image: none;
+		padding-left: 0px;
+	}
+
+	.contenedorGrado
+	{
+		width: 12%;
+		background-image: none;
+		padding-left: 0px;
+	}
+
+	.contenedorArea
+	{
+		width: 12%;
+		background-image: none;
+		padding-left: 0px;
+	}
+
+	.contenedorBuscar
+	{
+		width: 40%;
+	}
+
+	.busqueda select, .busqueda input
+	{
+	    padding: 4px;
+	    font-size: 0.9em;
+	}
+
+	.busqueda
+	{
+		width: 85%;
+	}
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+	.contenedorNivel
+	{
+		width: 15%;
+	}
+
+	.contenedorGrado
+	{
+		width: 10%;
+	}
+
+	.contenedorArea
+	{
+		width: 10%;
+	}
+
+	.contenedorBuscar
+	{
+		width: 40%;
+	}
+
+	.busqueda select, .busqueda input
+	{
+	    padding: 4px;
+	    font-size: 0.8em;
+	}
+
+	.busqueda
+	{
+		width: 90%;
+	}
+}
+
+@media (min-width: 1281px) and (max-width: 1680px) {
+
+	.contenedorNivel
+	{
+		width: 15%;
+	}
+
+	.contenedorGrado
+	{
+		width: 10%;
+	}
+
+	.contenedorArea
+	{
+		width: 10%;
+	}
+
+	.contenedorBuscar
+	{
+		width: 40%;
+	}
+
+	.busqueda select, .busqueda input
+	{
+	    padding: 4px;
+	    font-size: 0.8em;
+	}
+
+	.busqueda
+	{
+		width: 75%;
+	}
+}

@@ -1,0 +1,150 @@
+body
+{
+	margin: 0;
+	padding:0;
+}
+
+.contenedorBusqueda
+{
+	width: 100%;
+	height: 75px;
+	background-color: rgba(0, 0, 0, 0.5);
+	margin: 0;
+	padding-top: 10px;
+}
+
+.contenedorBusqueda table
+{
+	margin: 0 auto;
+}
+
+.busqueda
+{
+	width: 50%;
+	height: 50px;
+	padding: 10px 1% 0px 1%;
+	background-color: white;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	margin: 0 auto;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.busqueda img
+{
+	float: left;
+	margin-right: 5px;
+}
+
+
+.busqueda span
+{
+	color: #00A69C;
+	margin:2px 0px 0px 1px;
+	display: block;
+	float: left;
+}
+
+.busqueda td
+{
+	border-right: 1px solid #00A69C;
+	padding: 2px 10px 0px 2px;
+}
+
+.busqueda select, .busqueda input
+{
+	box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border:1px solid #BEBEBE;
+    padding: 5px;
+    margin:0px;
+    color: #969696;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.busqueda button
+{
+	background-color: #00A69C;
+	//background-image: url(images/iconos1-05.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+    -webkit-border-top-right-radius: 2px;
+	-webkit-border-bottom-right-radius: 2px;
+	-moz-border-radius-topright: 2px;
+	-moz-border-radius-bottomright: 2px;
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
+    border: none;
+    color: #FFF;
+    padding: 2px;
+    height: 30px;
+    width: 60px;
+    cursor: pointer;
+}
+
+.busqueda .sinBorde
+{
+	border:none;
+}
+
+.contenedorInicio
+{
+	width: 8%;
+	height: 40px;
+	float: left;
+	margin-right: 1%;
+	border-right: 1px solid #00A69C;
+	background-image: url(../images/iconos1-01.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.contenedorNivel
+{
+	width: 17%;
+	height: 40px;
+	float: left;
+	margin-right: 1%;
+	border-right: 1px solid #00A69C;
+	background-image: url(../images/iconos1-02.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 35px;
+}
+
+.contenedorGrado
+{
+	width: 10%;
+	height: 40px;
+	float: left;
+	margin-right: 1%;
+	border-right: 1px solid #00A69C;
+	background-image: url(../images/iconos1-03.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 35px;
+}
+
+.contenedorArea
+{
+	width: 12%;
+	height: 40px;
+	float: left;
+	margin-right: 1%;
+	border-right: 1px solid #00A69C;
+	background-image: url(../images/iconos1-04.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 35px;
+}
+
+.contenedorBuscar
+{
+	width: 34%;
+	height: 40px;
+	float: left;
+	margin-right: 1%;
+}
+
