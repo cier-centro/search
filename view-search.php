@@ -6,13 +6,24 @@
         <title>search</title>
         <script type="text/javascript" charset="utf-8" src="/unidades_didacticas_test/search/js/search.js"></script>
         <script type="text/javascript" charset="utf-8" src="/unidades_didacticas_test/search/js/popup.js"></script>
-        <script src="http://code.jquery.com/ui/1.9.1/jquery-ui.js"></script>
+        <script type="text/javascript" charset="utf-8" src="http://code.jquery.com/ui/1.9.1/jquery-ui.js"></script>
         <link rel="stylesheet" type="text/css" href="/unidades_didacticas_test/search/css/jquery-ui.min.css">
         <link rel="stylesheet" type="text/css" href="/unidades_didacticas_test/search/css/jquery-ui.structure.min.css">
         <link rel="stylesheet" type="text/css" href="/unidades_didacticas_test/search/css/jquery-ui.theme.min.css">
         <link rel="stylesheet" type="text/css" href="/unidades_didacticas_test/search/css/estilos.css">
         <link rel="stylesheet" type="text/css" href="/unidades_didacticas_test/search/css/style-popup.css">
         <link rel="stylesheet" type="text/css" href="/unidades_didacticas_test/search/css/responsive.css">
+        
+        <!--Start of Zopim Live Chat Script-->
+        <script type="text/javascript">
+        window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+        d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+        _.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
+        $.src="//v2.zopim.com/?3KPE6yIWJppZjfe4WJmJK7i0GLDNAsIg";z.t=+new Date;$.
+        type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
+        </script>
+        <!--End of Zopim Live Chat Script-->
+        
     </head>
     <body>
 
