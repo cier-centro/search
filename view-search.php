@@ -34,19 +34,33 @@
                 <div class="contenedorNivel">
                     <select id="level" name="level">
                         <option value="">Nivel</option>
-                        <option value="1">Basica primaria</option>
+                        <option value="1">BÁSICA PRIMARIA</option>
+                        <option value="2">BÁSICA SECUNDARIA</option>
+                        <option value="3">MEDIA</option>
                     </select>
                 </div>
                 <div class="contenedorGrado">
                     <select id="grade" name="grade">
                         <option value="">Grado</option>
                         <option value="G_1">1°</option>
+                        <option value="G_2">2°</option>
+                        <option value="G_3">3°</option>
+                        <option value="G_4">4°</option>
+                        <option value="G_5">5°</option>
+                        <option value="G_6">6°</option>
+                        <option value="G_7">7°</option>
+                        <option value="G_8">8°</option>
+                        <option value="G_9">9°</option>
+                        <option value="G_10">10°</option>
+                        <option value="G_11">11°</option>
                     </select>
                 </div>
                 <div class="contenedorArea">
                     <select id="matter" name="matter">
                         <option value="">Área</option>
-                        <option value="L">Lenguaje</option>
+                        <option value="L">LENGUAJE</option>
+                        <option value="M">MATEMÁTICAS</option>
+                        <option value="L">CIENCIAS</option>
                     </select>
                 </div>
                 <div class="contenedorBuscar">
@@ -57,19 +71,18 @@
         </div>
 
         <div id="dialog" title="Lista de resultados" style="display:none;" >
-            <ul id="lo"></ul>
+            <table>
+                <thead>
+                    <tr>
+                        <td>NIVEL</td>
+                        <td>GRADO</td>
+                        <td>ÁREA</td>
+                        <td>NOMBRE DEL CONTENIDO DE APRENDIZAJE</td>
+                    </tr>
+                </thead>
+                <tbody id="lo"></tbody>
+            </table>
         </div>
-        
-        <!-- Element chat -->
-        <div id="popup" style="display: none;">
-            <div class="content-popup">
-                <div class="close"><a href="#" id="close"><img src="/unidades_didacticas_test/search/images/close.png"/></a></div>
-                <!--<iframe src="/unidades_didacticas_test/chat_im" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:600px; height:400px;" allowTransparency="true"></iframe>-->
-            </div>
-        </div>
-
-        <div class="popup-overlay"></div>
-        <!------------------>
-
+    
     </body>
 </html>

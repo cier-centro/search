@@ -11,8 +11,8 @@ $(document).ready(function() {
 function openDialog() {
     $( "#dialog" ).dialog({
         modal:true,
-        width: 600,
-        height: 300,
+        width: 1000,
+        height: 800,
         resizable: false
     });
 };
@@ -34,8 +34,6 @@ function findLerningObject() {
         return false;
     }
     
-    openDialog();
-    
     hostname = window.location.hostname;
     url = '/'+nameFolderProject+'/search/class/SearchController.php';
 
@@ -50,10 +48,16 @@ function findLerningObject() {
         },
         success: function(data) {
             if (data.length != 0) {
+                openDialog();
                 var content = "";
+                content = "<table>";
                 $.each(data, function(i, lo) {
-                    //var event = "redirect('"+$.trim(lo.code_lo)+"')";
-                    content += '<li><a target="_parent" href="/'+nameFolderProject+'/'+$.trim(lo.grade)+'/'+$.trim(lo.matter)+'/menu_'+$.trim(lo.code_lo)+'">'+$.trim(lo.name_lo)+'</a></li>';
+                    content += '<tr>';
+                    content += '<td>'+$.trim(lo.level)+'</td>';
+                    content += '<td>'+$.trim(lo.grade)+'</td>';
+                    content += '<td>'+$.trim(lo.matter)+'</td>';
+                    content += '<td><a target="_parent" href="/'+nameFolderProject+'/'+$.trim(lo.grade)+'/'+$.trim(lo.matter)+'/menu_'+$.trim(lo.code_lo)+'">'+$.trim(lo.name_lo)+'</a></td>';
+                    content += '</tr>';
                 });
                 
                 $('#lo').html(content);

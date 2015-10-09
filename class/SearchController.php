@@ -18,6 +18,7 @@ while ($rw = mysqli_fetch_array($arrayObject)) {
     $arrayData[$i]['name_lo'] = utf8_encode(trim($rw['name_lo']));
     $arrayData[$i]['grade'] = utf8_encode(trim($rw['grade']));
     $arrayData[$i]['matter'] = utf8_encode(trim($rw['matter']));
+    $arrayData[$i]['level'] = utf8_encode(trim($rw['level']));
     $i++;
 }
 
